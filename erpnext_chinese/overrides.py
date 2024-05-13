@@ -6,6 +6,8 @@ def custom_get_workspace_sidebar_items():
     data = get_workspace_sidebar_items()
     if frappe.local and frappe.local.lang and frappe.local.lang == 'zh':
         trans_map = [
+            ['Helpdesk Configuration','服务台配置'],
+            ['Visit Helpdesk','访问服务台'],
             ['Reports &amp; Masters', '主数据、业务交易、报表'],
             ["Masters &amp; Reports",'主数据、业务交易、报表'],            
             ['Reports & Masters', '主数据、业务交易、报表'],

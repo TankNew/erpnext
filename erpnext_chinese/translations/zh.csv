@@ -1,6 +1,6 @@
 X Field,X轴字段,
 {0} m,{0} m,
-m,m,Minutes (Field: Duration),
+m,m,Minutes (Field: Duration)
 Business,业务,
 Domain,域名,
 Domains,域名,
@@ -1706,7 +1706,7 @@ Ageing Range 2,账龄范围2,
 Ageing Range 3,账龄范围3,
 Ageing Range 4,账龄范围4,
 Agenda,议程,
-Agent,代理商,
+Agent,代理,
 Aggregate Function Based On,统计字段,
 "Aggregate group of **Items** into another **Item**. This is useful if you are bundling a certain **Items** into a package and you maintain stock of the packed **Items** and not the aggregate **Item**. 
 
