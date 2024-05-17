@@ -16,3 +16,12 @@ app_license = "MIT"
 override_whitelisted_methods = {
     "frappe.desk.desktop.get_workspace_sidebar_items": "erpnext_chinese.overrides.custom_get_workspace_sidebar_items"
 }
+# 现在是放在 doc_events *  before_validate中的，因为不确定哪些doctype会用到这个转金额，
+doc_events = {
+	"*": {
+        "before_validate": "erpnext_chinese.utils.data.money_in_words_zh_hooks"
+#       "on_update": "method",
+#       "on_cancel": "method",
+#       "on_trash": "method"
+	}
+}
